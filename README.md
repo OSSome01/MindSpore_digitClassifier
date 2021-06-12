@@ -12,7 +12,7 @@ Implemented a basic digit classifier based on the MNIST dataset. Used the powerf
 
 ### Errors Encountered
 
-When trying to run the quick start example on google colab I came accross a error. The problem encounter is due the the number of cores in colab. Colab has 2 CPU cores whereas by deafult the MnistDataset() method considers 8 cores. Even when I changed the <mark>num_parallel_workers</mark> argument in the MnistDataset() method to 2 I still got the error.
+When trying to run the quick start example on google colab I came accross a error. The problem encounter is due the the number of cores in colab. Colab has 2 CPU cores whereas by deafult the MnistDataset() method considers 8 cores. Even when I changed the `num_parallel_workers`argument in the MnistDataset() method to 2 I still got the error.
 
 ![image](https://github.com/OSSome01/MindSpore_digitClassifier/blob/master/images/error.PNG)
 
