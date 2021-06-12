@@ -16,4 +16,4 @@ When trying to run the quick start example on google colab I came accross a erro
 
 ![image](https://github.com/OSSome01/MindSpore_digitClassifier/blob/master/images/error.PNG)
 
-I was able to solve this error by  adding this line to the code <mark> ds.config.set_num_parallel_workers(1) <mark>. I had to set the <mark>num_parallel_workers<mark> to 1 by setting the global config.
+I was able to solve this error by  adding this line to the code <mark> ds.config.set_num_parallel_workers(1) <mark>. I had to set the <mark>num_parallel_workers<mark> to 1 by setting the global config. This error has also been discussed in this [issue](https://github.com/mindspore-ai/mindspore/issues/134) on Github
